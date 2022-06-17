@@ -1,5 +1,7 @@
 package com.cjrcodes.lil.sfid;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
+
 import org.springframework.boot.SpringApplication;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,7 +23,6 @@ public class SpringFrameworkInDepthApplication {
 		try {
 			
 			OutputService outputService = context.getBean(OutputService.class);
-			
 			int i = 0;
 			
 			do {
